@@ -9,3 +9,12 @@ step4: Run from a weblink.
 https://rv9ancw6j7.execute-api.us-east-1.amazonaws.com/default/my-function-kul
        serverless function working on the internet.
 then clean up the lambda function.
+
+
+An overview of how lembda function work?
+ The AWS Lambda function runs automatically in response to an event — in this case, an HTTP request from API Gateway.
+When someone opens the function’s URL, API Gateway sends the request to Lambda.
+Lambda runs the Python code inside the function (lambda_handler) and returns a response message (for example, “Hello from my first AWS Lambda Function!”).
+
+No servers need to be created or managed — AWS automatically handles scaling, execution, and billing only for the time the function runs.
+This shows the concept of serverless computing and Function-as-a-Service (FaaS).
